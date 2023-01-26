@@ -1,0 +1,127 @@
+*{
+    margin: o;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    background: url(https://img.freepik.com/vector-premium/fondo-tecnologia-circuito-alta-tecnologia-digital_29971-542.jpg?w=2000);
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background:#0a0a0a;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 10px;
+}
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: rgb(235, 252, 2);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.navbar a:hover {
+    background: #3f3f3f ;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    height: 60vh !important;
+    background: url(img/pro3.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.title {
+    padding: 70px;
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(7, 7, 7);
+}
+.destacado {
+    color: #050505;
+}
+p  {
+    text-align: left;
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: rgb(2, 2, 2);
+    padding: 0 100px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 40px;
+    border: 2px solid #585757;
+    color: #fff;
+    text-decoration: none;
+    background: #585757;
+}
+
+@media (max-width: 768px) {
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+    .sau{
+         height: 120vh;
+    }
+    .navbar {
+        display: none;
+    }
+}
+footer{
+    background-color: #070707;
+    height: 7rem;
+   
+}
+
+  .header > h3{
+    text-align: center;
+  }
+  
+  .Main > section > div {
+    display: flex;
+    justify-content: center;
+  }
+  
+  section > div > figure > img {
+    border-radius: 20px;
+  }
+div section h3 {
+    font-size: 25px;
+  }

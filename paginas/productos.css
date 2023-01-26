@@ -1,0 +1,53 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    height: 20vh !important;
+    background: url(img/pro3.jpg) no-repeat center;
+    background-size: cover;
+    padding: 110px 0;
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background:#0a0a0a;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: rgb(235, 252, 2);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.navbar a:hover {
+    background: #3f3f3f ;
+}
+body {
+    background: url(img/fondo-degradado-gris-azul-simple-premium_552255-581.webp)
+}
+main>.container {
+    padding: 90px 0px;
+
+}
+

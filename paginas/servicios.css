@@ -1,0 +1,170 @@
+*{
+    margin: o;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background:#0a0a0a;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 10px;
+}
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: rgb(235, 252, 2);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.navbar a:hover {
+    background: #3f3f3f ;
+}
+
+.header h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background: url(https://msgtecnologia.com/wp-content/uploads/2018/03/Slide3-1800x850.jpg)
+    }
+
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(175, 192, 24);
+}
+header {
+    padding: 60px;
+    
+    ;
+}
+header img {
+    width: 100px;
+    height: 100px;
+}
+
+
+p  {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: rgb(248, 246, 246);
+    padding: 0 100px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #585757;
+    color: rgb(41, 39, 39);
+    text-decoration: none;
+    background: #585757;
+}
+
+p i {
+    height: 100px;
+    width: fit-content;
+    text-align: center;
+}
+
+
+
+footer{
+    background-color: #080808;
+    height: 7rem;
+   
+}
+
+@media (max-width: 768px) {
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+    .sau{
+         height: 120vh;
+    }
+    .navbar {
+        display: none;
+    }
+}
+
+.sau {
+    padding: 100px;
+    background-size: cover;
+}
+
+ .box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+ }
+
+ .box-container .box {
+    height: 31rem;
+    width: 17rem;
+    background: #979799;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(173, 69, 138, 0.5);
+    margin: 2rem;
+ }
+
+ .box-container .box i {
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    text-align: center;
+    border-radius: 100%;
+    color: rgb(7, 7, 7);
+    background: #93b304;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: #030303;
+}
+
+
+.box-container .box p{
+    padding: 0 15px;
+    font-size: 16px;
+    color: #0a0a0a;
+}
