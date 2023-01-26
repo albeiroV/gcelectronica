@@ -20,11 +20,13 @@
         </div>
 
         <nav class="navbar">
-            <a href="http://127.0.0.1:5500/paginas/desarrollo%20web.html">Desarrollo web </a>
-            <a href="http://127.0.0.1:5500/paginas/productos.html" >productos</a>
-            <a href="http://127.0.0.1:5500/paginas/servicios.html#">servicios</a>
-            <a href="http://127.0.0.1:5500/paginas/contacto.html">contacto</a>
-            <a href="http://127.0.0.1:5500/index.html">inicio </a>
+            <a href="index.php">inicio </a>
+            <a href="./paginas/desarrollo_web.html">Desarrollo web </a>
+            <a href="./paginas/productos.html" >productos</a>
+            <a href="./paginas/servicios.html#">servicios</a>
+            <a href="./paginas/contacto.html">contacto</a>
+            <a href="index.php">inicio </a>
+            <a href="./login/login.php">Login </a>
           
         </nav>
 
